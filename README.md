@@ -12,3 +12,17 @@ Go to Config.php and Change the Following to your api key
 API_KEY("ENTER YOUR API KEY");
 
 ```
+
+# How to Use
+
+```
+Create a variable named query and urlencode it because of errors
+
+```
+
+```php
+<?php
+
+$query = urlencode($_GET["YOUR PARAMETER NAME"]);
+
+```
